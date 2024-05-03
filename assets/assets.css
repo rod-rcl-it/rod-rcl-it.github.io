@@ -1,0 +1,55 @@
+.body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('./img/fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100vh;
+    text-align: center;
+}
+
+.inicio h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.inicio h2 {
+    color: white;
+}
+
+.menu {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    list-style: none; 
+    padding: 0; 
+    margin: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+
+
+.menu li:last-child {
+    border-right: none; 
+}
+
+.menu li a {
+    display: inline-block; 
+    color: white;
+    padding: 14px 70px;
+    text-decoration: none; 
+    margin: 0 10px;
+}
+
+.menu li a:hover {
+    transform: scale(2.2);
+}
