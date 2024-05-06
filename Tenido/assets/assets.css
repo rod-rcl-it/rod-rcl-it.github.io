@@ -1,0 +1,103 @@
+.titulo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding-top: 0%;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rodenstock {
+    max-width: 150px;
+    height: auto;
+    position:absolute;
+    left: 90%;
+    top: 2%
+}
+
+.container img {
+    height: auto; 
+    max-width: 1500px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.bbteq {
+    max-width: 150px;
+    height: auto;
+    position:absolute;
+    left: 1%;
+    top: 2%
+}
+
+.mixing {
+    position: fixed;
+    top: 37%;
+    left: 39%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.tenidoras {
+    position: fixed;
+    top: 86%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.calidad {
+    position: fixed;
+    top: 44.5%;
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.circle:hover {
+    transform: scale(1.5,1.5); 
+}
+
+.black {
+    background-color: rgb(0, 0, 0);
+    align-self: center; 
+}
+
+.blue {
+    background-color: rgb(19, 55, 157);
+    align-self: center; 
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
