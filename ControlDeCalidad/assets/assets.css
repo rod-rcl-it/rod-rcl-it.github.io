@@ -20,7 +20,7 @@ h1, h2 {
 
 .container img {
     height: auto; 
-    max-width: 1400px; 
+    max-width: 1300px; 
     display: block;
     margin-left: auto; 
     margin-right: auto;
@@ -34,10 +34,22 @@ h1, h2 {
     top: 2%
 }
 
-.mixing {
+.controldecalidad {
     position: fixed;
-    top: 43.5%;
-    left: 15%; 
+    top: 64%;
+    left: 20.5%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.controldeproceso {
+    position: fixed;
+    top: 74%;
+    left: 63%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
@@ -47,10 +59,10 @@ h1, h2 {
 }
 
 
-.tenidoras {
+.teco {
     position: fixed;
-    top: 37%;
-    left: 38.5%; 
+    top:91%;
+    left: 27.5%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
@@ -59,10 +71,11 @@ h1, h2 {
     margin-left: 16%;
 }
 
-.calidad {
+
+.sobreyetiqueta {
     position: fixed;
-    top: 82%;
-    left: 48%; 
+    top: 62.5%;
+    left: 32.2%; 
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction:row-reverse;
@@ -70,6 +83,32 @@ h1, h2 {
     margin: -8.3%;
     margin-left: 16%;
 }
+
+.despacho {
+    position: fixed;
+    top: 81%;
+    left: 9%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+.saladedestratadoAR {
+    position: fixed;
+    top: 48.5%;
+    left: 43.3%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin: -8.3%;
+    margin-left: 16%;
+}
+
+
 
 .circle {
     width: 20px;
