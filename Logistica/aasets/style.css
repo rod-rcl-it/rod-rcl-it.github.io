@@ -64,15 +64,15 @@ h1, h2 {
 }
 
 
-.uno   { top: 51%; left: 23%; position:fixed; }
+.uno   { top: 45.5%; left: 49.5%; position:fixed; }
 .dos   { top: 56%; left: 25%; position: fixed; }
-.tres  { top: 45.5%; left: 49.5%; position: fixed; }
+.tres  { top: 51%; left: 23%; position: fixed; }
 .cuatro{ top: 64%; left: 29.5%; position: fixed; }
-.cinco { top: 53%; left: 18%; position: fixed; }
-.seis  { top: 45.5%; left: 44.5%; position: fixed; }
+.cinco { top: 58.5%; left: 40%; position: fixed; }
+.seis  { top: 67%; left: 43.3%; position: fixed; }
 .siete { top: 64%; left: 21%; position: fixed; }
-.ocho  { top: 58.5%; left: 40%; position: fixed; }
-.nueve { top: 67%; left: 43.3%; position: fixed; }
+.ocho  { top: 53%; left: 18%; position: fixed; }
+.nueve { top: 45.5%; left: 44.5%; position: fixed; }
 .diez  { top: 44%; left: 26%; position: fixed; }
 .once  { top: 44%; left: 28.5%; position: fixed; }
 .doce  { top: 44%; left: 31%; position: fixed; }
